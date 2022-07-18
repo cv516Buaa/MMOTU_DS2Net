@@ -1,6 +1,6 @@
 # MMOTU_DS<sup>2</sup>Net
 
-This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound Image Dataset for Unsupervised Cross-Domain Semantic Segmentation"]("arxiv url"). we refer to  [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [MMGeneration](https://github.com/open-mmlab/mmgeneration) and mix them to implement unsupervised domain adaptation based segmentation (UDA SEG) task. Many thanks to SenseTime and their two excellent repos.
+This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound Image Dataset for Unsupervised Cross-Domain Semantic Segmentation"](https://arxiv.org/abs/2207.06799). we refer to  [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [MMGeneration](https://github.com/open-mmlab/mmgeneration) and mix them to implement unsupervised domain adaptation based segmentation (UDA SEG) task. Many thanks to SenseTime and their two excellent repos.
 
 <table>
     <tr>
@@ -21,7 +21,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 
 ### Install
 
- 	**requirements:** 
+ 	requirements:
 
 ​		python >= 3.7
 
