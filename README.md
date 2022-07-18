@@ -22,12 +22,12 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 ### Install
 
  	requirements:
-
-​		python >= 3.7
-
-​		pytorch >= 1.4
-
-​		cuda >= 10.0
+    
+        python >= 3.7
+        
+        pytorch >= 1.4
+        
+        cuda >= 10.0
 
 ### Training
 
