@@ -28,6 +28,11 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
         pytorch >= 1.4
         
         cuda >= 10.0
+    
+    prerequisites:
+        
+        Please refer to  [MMSegmentation PREREQUISITES](https://mmsegmentation.readthedocs.io/en/latest/get_started.html)
+        
 
 ### Training
 
