@@ -1,0 +1,1 @@
+./tools/dist_test.sh ./experiments/transunet_r50-vit_512x512_80k_MMOTU/config/transunet_r50-vit_512x512_80k_MMOTU_A2Btest.py ./experiments/transunet_r50-vit_512x512_80k_MMOTU/results/iter_72000.pth 2 --eval mIoU

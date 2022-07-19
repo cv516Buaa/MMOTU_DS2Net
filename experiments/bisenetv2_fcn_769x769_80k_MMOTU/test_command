@@ -1,0 +1,1 @@
+./tools/dist_test.sh ./experiments/bisenetv2_fcn_769x769_80k_MMOTU/config/bisenetv2_fcn_769x769_80k_MMOTU.py ./experiments/bisenetv2_fcn_769x769_80k_MMOTU/results/iter_80000.pth 2 --eval mIoU

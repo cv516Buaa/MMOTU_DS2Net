@@ -1,0 +1,1 @@
+./tools/dist_train.sh ./experiments/unet_fcn_512x512_80k_MMOTU/config/unet_fcn_512x512_80k_MMOTU.py 2

@@ -1,0 +1,1 @@
+./tools/dist_test.sh ./experiments/segformerb5_769x769_80k_MMOTU/config/segformerb5_769x769_80k_MMOTU.py ./experiments/segformerb5_769x769_80k_MMOTU/results/iter_64000.pth 2 --eval mIoU

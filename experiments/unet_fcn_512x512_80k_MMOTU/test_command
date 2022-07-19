@@ -1,0 +1,1 @@
+./tools/dist_test.sh ./experiments/unet_fcn_512x512_80k_MMOTU/config/unet_fcn_512x512_80k_MMOTU.py ./experiments/unet_fcn_512x512_80k_MMOTU/results/iter_80000.pth 2 --eval mIoU
