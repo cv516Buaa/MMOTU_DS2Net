@@ -46,4 +46,10 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 
 #### Task2: UDA semantic segmentation
 
+<table>
+    <tr>
+    <td><img src="PaperFigs\UDASeg.jpg" width = "100%" alt="UDA Multi-Modality semantic segmentation"/></td>
+    </tr>
+</table>
+
 ### Testing
