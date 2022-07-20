@@ -52,4 +52,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
     </tr>
 </table>
 
+     cd MMOTU_DS2Net
+     
+     ./tools/dist_train.sh ./experiments/DS2Net_segformerb5_769x769_40k_MMOTU/config/DS2Net_segformerb5_769x769_40k_MMOTU.py 2
 ### Testing
