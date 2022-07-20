@@ -92,7 +92,8 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 ## Description of MMOTU/DS<sup>2</sup>Net
 - https://arxiv.org/abs/2207.06799 
 
-If you have any question, please discuss with me by sending email to lyushuchang@buaa.edu.cn
+If you have any question, please discuss with me by sending email to lyushuchang@buaa.edu.cn.
+
 If you find this code useful please cite:
 ```
 @article{DBLP:journals/corr/abs-2207-06799,
