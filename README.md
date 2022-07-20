@@ -43,4 +43,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
      cd MMOTU_DS2Net
      
      ./tools/dist_train.sh ./experiments/pspnet_r50-d8_769x769_20k_MMOTU/config/pspnet_r50-d8_769x769_20k_MMOTU.py 2
+
+#### Task2: UDA semantic segmentation
+
 ### Testing
