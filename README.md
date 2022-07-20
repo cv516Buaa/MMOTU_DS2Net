@@ -104,6 +104,5 @@ If you find this code useful please cite:
 
 # References
 Many thanks to their excellent works
-* [ultralytics/yolov5](https://github.com/ultralytics/yolov5)
-* [SwinTransformer](https://github.com/microsoft/Swin-Transformer)
-* [WBF](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
+* [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
+* [MMGeneration](https://github.com/open-mmlab/mmgeneration)
