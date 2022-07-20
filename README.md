@@ -32,7 +32,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 
 ### Training
 
-**mit_b5.pth** : [google drive](https://drive.google.com/drive/folders/1cmKZgU8Ktg-v-jiwldEc6IghxVSNcFqk?usp=sharing) (Before training Segformer or DS)
+**mit_b5.pth** : [google drive](https://drive.google.com/drive/folders/1cmKZgU8Ktg-v-jiwldEc6IghxVSNcFqk?usp=sharing) (Before training Segformer or DS<sup>2</sup>Net_T, loading ImageNet-pretrained mit_b5.pth is very useful. We provide this pretrained backbone here. The pretrained backbone has already been transformed to fit for our repo.)
 
 #### Task1: Single-modality semantic segmentation
 
