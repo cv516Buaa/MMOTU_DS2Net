@@ -34,7 +34,11 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 
 #### Task1: Single-modality semantic segmentation
 
-<img src="PaperFigs\SSeg.jpg" width = "100%" alt="Single-Modality semantic segmentation"/>
+<table>
+    <tr>
+    <td><img src="PaperFigs\SSeg.png" width = "100%" alt="Single-Modality semantic segmentation"/></td>
+    </tr>
+</table>
   
      cd MMOTU_DS2Net
      
