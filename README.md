@@ -77,3 +77,25 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
      cd MMOTU_DS2Net
      
      ./tools/dist_test.sh ./experiments/DS2Net_segformerb5_769x769_40k_MMOTU/config/DS2Net_segformerb5_769x769_40k_MMOTU.py ./experiments/DS2Net_segformerb5_769x769_40k_MMOTU/results/iter_40000.pth --eval mIoU
+     
+## Description of TPH-YOLOv5 and citation
+- https://arxiv.org/abs/2207.06799 
+
+If you have any question, please discuss with me by sending email to lyushuchang@buaa.edu.cn
+If you find this code useful please cite:
+```
+@InProceedings{Zhu_2021_ICCV,
+    author    = {Zhu, Xingkui and Lyu, Shuchang and Wang, Xu and Zhao, Qi},
+    title     = {TPH-YOLOv5: Improved YOLOv5 Based on Transformer Prediction Head for Object Detection on Drone-Captured Scenarios},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2021},
+    pages     = {2778-2788}
+}
+```
+
+# References
+Thanks to their great works
+* [ultralytics/yolov5](https://github.com/ultralytics/yolov5)
+* [SwinTransformer](https://github.com/microsoft/Swin-Transformer)
+* [WBF](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
