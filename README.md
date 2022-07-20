@@ -36,7 +36,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 
 <table>
     <tr>
-    <td><img src="PaperFigs\SSeg.png" width = "100%" alt="Single-Modality semantic segmentation"/></td>
+    <td><img src="PaperFigs\SSeg.jpg" width = "100%" alt="Single-Modality semantic segmentation"/></td>
     </tr>
 </table>
   
