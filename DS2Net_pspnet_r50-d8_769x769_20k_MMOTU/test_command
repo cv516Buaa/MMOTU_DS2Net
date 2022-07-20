@@ -1,1 +1,0 @@
-./tools/dist_test.sh ./experiments/AdapSeg_pspnet_r50-d8_769x769_20k_MMOTU/config/AdapSeg_pspnet_r50-d8_769x769_20k_MMOTU.py ./experiments/AdapSeg_pspnet_r50-d8_769x769_20k_MMOTU/results/iter_20000.pth 2 --eval mIoU
