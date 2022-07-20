@@ -32,4 +32,5 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 
 ### Training
 
+#### Task1: Single-modality semantic segmentation
 ### Testing
