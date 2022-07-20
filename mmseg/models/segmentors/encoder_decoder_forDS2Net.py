@@ -21,8 +21,6 @@ class EncoderDecoder_forDS2Net(BaseSegmentor):
         backbone_t: backbone for target.
         decode_head_s: decode_head for source
         decode_head_t: decode_head for target
-        trans_head_s: translation head for source (decode_head)
-        trans_head_t: translation head for target (decode_head)
         discriminator_s: discriminator for source and fake_source
         discriminator_t: discriminator for target and fake_target
         discriminator_fs: discriminator for source_prediction and fake_source_prediction
@@ -34,8 +32,6 @@ class EncoderDecoder_forDS2Net(BaseSegmentor):
                  backbone_t,
                  decode_head_s,
                  decode_head_t,
-                 trans_head_s,
-                 trans_head_t,
                  discriminator_s=None,
                  discriminator_t=None,
                  discriminator_fs=None,
@@ -62,13 +58,6 @@ class EncoderDecoder_forDS2Net(BaseSegmentor):
         self.align_corners = self.decode_head_t.align_corners
         assert self.decode_head_s.num_classes == self.decode_head_t.num_classes, \
                 'both decode_head_s and decode_head_t must have same num_classes'
-        
-        self.trans_head_s = self._init_decode_head(trans_head_s)
-        self.trans_head_t = self._init_decode_head(trans_head_t)
-        assert self.trans_head_s.num_classes == 3, \
-                'The output channels of trans_head_s must be 3'
-        assert self.trans_head_t.num_classes == 3, \
-                'The output channels of trans_head_t must be 3'
 
         self.train_cfg = train_cfg
         self.test_cfg = test_cfg
@@ -212,8 +201,6 @@ class EncoderDecoder_forDS2Net(BaseSegmentor):
         optimizer['backbone_t'].zero_grad()
         optimizer['decode_head_s'].zero_grad()
         optimizer['decode_head_t'].zero_grad()
-        optimizer['trans_head_s'].zero_grad()
-        optimizer['trans_head_t'].zero_grad()
         optimizer['discriminator_s'].zero_grad()
         optimizer['discriminator_t'].zero_grad()
         optimizer['discriminator_fs'].zero_grad()
@@ -224,8 +211,6 @@ class EncoderDecoder_forDS2Net(BaseSegmentor):
         self.set_requires_grad(self.backbone_t, False)
         self.set_requires_grad(self.decode_head_s, False)
         self.set_requires_grad(self.decode_head_t, False)
-        self.set_requires_grad(self.trans_head_s, False)
-        self.set_requires_grad(self.trans_head_t, False)
         self.set_requires_grad(self.discriminator_s, False)
         self.set_requires_grad(self.discriminator_t, False)
         self.set_requires_grad(self.discriminator_fs, False)
