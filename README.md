@@ -32,6 +32,8 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 
 ### Training
 
+**mit_b5.pth** : [google drive](https://drive.google.com/drive/folders/1cmKZgU8Ktg-v-jiwldEc6IghxVSNcFqk?usp=sharing) (Before training Segformer or DS)
+
 #### Task1: Single-modality semantic segmentation
 
 <table>
