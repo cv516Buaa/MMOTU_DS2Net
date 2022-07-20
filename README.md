@@ -29,6 +29,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
     
 2. prerequisites: Please refer to  [MMSegmentation PREREQUISITES](https://mmsegmentation.readthedocs.io/en/latest/get_started.html); Please don't forget to install mmsegmentation with
 
+     ```
      cd MMOTU_DS2Net
      
      pip install -e .
@@ -36,6 +37,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
      chmod 777 ./tools/dist_train.sh
      
      chmod 777 ./tools/dist_test.sh
+     ```
 
 ### Training
 
