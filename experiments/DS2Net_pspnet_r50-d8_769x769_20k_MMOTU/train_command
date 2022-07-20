@@ -1,0 +1,1 @@
+./tools/dist_train.sh ./experiments/DS2Net_pspnet_r50-d8_769x769_20k_MMOTU/config/DS2Net_pspnet_r50-d8_769x769_20k_MMOTU.py 2
