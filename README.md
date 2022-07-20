@@ -27,7 +27,15 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
         
     cuda >= 10.0
     
-2. prerequisites: Please refer to  [MMSegmentation PREREQUISITES](https://mmsegmentation.readthedocs.io/en/latest/get_started.html); Please remember to install mmsegmentation with
+2. prerequisites: Please refer to  [MMSegmentation PREREQUISITES](https://mmsegmentation.readthedocs.io/en/latest/get_started.html); Please don't forget to install mmsegmentation with
+    
+    cd MMOTU_DS2Net
+    
+    pip install -e .
+    
+    chmod 777 ./tools/dist_train.sh
+    
+    chmod 777 ./tools/dist_test.sh
     
     cd MMOTU_DS2Net
     
