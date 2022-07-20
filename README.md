@@ -34,9 +34,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 
 #### Task1: Single-modality semantic segmentation
 <table>
-    <tr>
     <td><img src="PaperFigs\SSeg.jpg" width = "100%" alt="MMOTU"/></td>
-    </tr>
 </table>
   
      cd MMOTU_DS2Net
