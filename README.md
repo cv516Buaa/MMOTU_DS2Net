@@ -11,7 +11,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
 
 ## Dataset
 
-**Multi-Modality Ovarian Tumor Ultrasound (MMOTU) image dataset** consists of two sub-sets with two modalities, which are **OTU\_2d** and **OTU\_CEUS** respectively including **1469 2d ultrasound images** and **170 CEUS images**. On both of these two sub-sets, we provide pixel-wise semantic annotations and global-wise category annotations.
+**Multi-Modality Ovarian Tumor Ultrasound (MMOTU) image dataset** consists of two sub-sets with two modalities, which are **OTU\_2d** and **OTU\_CEUS** respectively including **1469 2d ultrasound images** and **170 CEUS images**. On both of these two sub-sets, we provide pixel-wise semantic annotations and global-wise category annotations. **Many thanks to Department of Gynecology and Obstetrics, Beijing Shijitan Hospital, Capital Medical University and their excellent works on collecting and annotating the data.**
 
 **MMOTU** : [google drive](https://drive.google.com/drive/folders/1c5n0fVKrM9-SZE1kacTXPt1pt844iAs1?usp=sharing) (move OTU_2d and OTU_CEUS to data folder.)
 
