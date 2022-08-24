@@ -67,7 +67,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
      
      ./tools/dist_train.sh ./experiments/DS2Net_segformerb5_769x769_40k_MMOTU/config/DS2Net_segformerb5_769x769_40k_MMOTU.py 2
 
-#### Task3: Single-modality recognition: (The recognition code will not be released in this repo. We will release soon.)
+#### Task3: Single-modality recognition: 
 
 <table>
     <tr>
