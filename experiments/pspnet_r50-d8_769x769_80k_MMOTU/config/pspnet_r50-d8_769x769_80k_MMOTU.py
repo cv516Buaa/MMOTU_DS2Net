@@ -1,0 +1,13 @@
+_base_ = [
+    '../../../configs/_base_/models/pspnet_r50-d8.py',
+    '../../../configs/_base_/datasets/mmotu.py', '../../../configs/_base_/default_runtime.py',
+    '../../../configs/_base_/schedules/schedule_80k.py'
+]
+model = dict(
+    decode_head=dict(
+        num_classes=2,
+    ),
+    auxiliary_head=dict(
+        num_classes=2))
+work_dir = './experiments/pspnet_r50-d8_769x769_80k_MMOTU/results/'
+workflow = [('train', 1), ('val', 1)]
