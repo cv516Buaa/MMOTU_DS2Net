@@ -98,7 +98,7 @@ This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound I
      #### Training
      ./tools/dist_train.sh ./experiments/DS2Net_segformerb5_40k_WHS/config/DS2Net_segformerb5_40k_WHS_MR2CT.py 2
      #### Testing
-     ./tools/dist_test.sh ./experiments/DS2Net_segformerb5_40k_WHS/config/DS2Net_segformerb5_40k_WHS_CT2MR.py ./experiments/DS2Net_segformerb5_40k_WHS/results/MR2CT_iter_3200_81.11.pth 2 --eval mDice
+     ./tools/dist_test.sh ./experiments/DS2Net_segformerb5_40k_WHS/config/DS2Net_segformerb5_40k_WHS_MR2CT.py ./experiments/DS2Net_segformerb5_40k_WHS/results/MR2CT_iter_3200_81.11.pth 2 --eval mDice
 
 ## Description of MMOTU/DS<sup>2</sup>Net
 - https://arxiv.org/abs/2207.06799 
