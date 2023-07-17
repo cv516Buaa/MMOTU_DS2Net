@@ -1,0 +1,1 @@
+./tools/dist_test.sh ./experiments/DS2Net_segformerb5_40k_WHS/config/DS2Net_segformerb5_40k_WHS_CT2MR.py ./experiments/DS2Net_segformerb5_40k_WHS/results/MR2CT_iter_3200_81.11.pth 2 --eval mDice
