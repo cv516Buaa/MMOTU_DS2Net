@@ -1,0 +1,1 @@
+./tools/dist_test.sh ./experiments/DDFSeg_769x769_40k_MMOTU/config/DDFSeg_769x769_40k_MMOTU_2dtoCEUS.py ./experiments/DDFSeg_769x769_40k_MMOTU/results/xxx.pth 2 --eval mIoU
