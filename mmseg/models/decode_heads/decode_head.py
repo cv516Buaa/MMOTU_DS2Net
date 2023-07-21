@@ -227,7 +227,7 @@ class BaseDecodeHead(BaseModule, metaclass=ABCMeta):
             feat = self.dropout(feat)
         output = self.conv_seg(feat)
         return output
-
+    '''
     @force_fp32(apply_to=('seg_logit', ))
     def losses(self, seg_logit, seg_label):
         """Compute segmentation loss."""
@@ -241,6 +241,45 @@ class BaseDecodeHead(BaseModule, metaclass=ABCMeta):
             seg_weight = self.sampler.sample(seg_logit, seg_label)
         else:
             seg_weight = None
+        seg_label = seg_label.squeeze(1)
+
+        if not isinstance(self.loss_decode, nn.ModuleList):
+            losses_decode = [self.loss_decode]
+        else:
+            losses_decode = self.loss_decode
+        for loss_decode in losses_decode:
+            if loss_decode.loss_name not in loss:
+                loss[loss_decode.loss_name] = loss_decode(
+                    seg_logit,
+                    seg_label,
+                    weight=seg_weight,
+                    ignore_index=self.ignore_index)
+            else:
+                loss[loss_decode.loss_name] += loss_decode(
+                    seg_logit,
+                    seg_label,
+                    weight=seg_weight,
+                    ignore_index=self.ignore_index)
+
+        loss['acc_seg'] = accuracy(
+            seg_logit, seg_label, ignore_index=self.ignore_index)
+        return loss
+    '''
+    @force_fp32(apply_to=('seg_logit', ))
+    def losses(self, seg_logit, seg_label, gt_weight=None):
+        """Compute segmentation loss."""
+        loss = dict()
+        seg_logit = resize(
+            input=seg_logit,
+            size=seg_label.shape[2:],
+            mode='bilinear',
+            align_corners=self.align_corners)
+        if self.sampler is not None:
+            seg_weight = self.sampler.sample(seg_logit, seg_label)
+        else:
+            ## modified by LYU: 2023/07/20
+            #seg_weight = None
+            seg_weight = gt_weight
         seg_label = seg_label.squeeze(1)
 
         if not isinstance(self.loss_decode, nn.ModuleList):
