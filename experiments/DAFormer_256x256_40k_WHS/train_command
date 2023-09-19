@@ -1,0 +1,2 @@
+./tools/dist_train.sh ./experiments/DAFormer_256x256_40k_WHS/config/DAFormer_40k_WHS_CT2MR.py 2
+./tools/dist_train.sh ./experiments/DAFormer_256x256_40k_WHS/config/DAFormer_40k_WHS_MR2CT.py 2
