@@ -1,5 +1,7 @@
 # MMOTU_DS<sup>2</sup>Net
 
+### This paper has been accepted for Pattern Recognition. Welcome to follow the offical version or Arxiv version.
+
 This repo is the implementation of ["A Multi-Modality Ovarian Tumor Ultrasound Image Dataset for Unsupervised Cross-Domain Semantic Segmentation"](https://arxiv.org/abs/2207.06799). we refer to  [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [MMGeneration](https://github.com/open-mmlab/mmgeneration) and mix them to implement unsupervised domain adaptation based segmentation (UDA SEG) task. Many thanks to SenseTime and their two excellent repos.
 
 <table>
